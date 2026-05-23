@@ -79,7 +79,6 @@ const CVModal = ({ isOpen, onClose }) => {
               required
               value={formData.name}
               onChange={handleChange}
-              placeholder="e.g. John Doe"
               className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-gray-800"
             />
           </div>
@@ -93,7 +92,6 @@ const CVModal = ({ isOpen, onClose }) => {
               name="company"
               value={formData.company}
               onChange={handleChange}
-              placeholder="e.g. Acme Corp"
               className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-gray-800"
             />
           </div>
@@ -108,7 +106,6 @@ const CVModal = ({ isOpen, onClose }) => {
               required
               value={formData.email}
               onChange={handleChange}
-              placeholder="e.g. john@acme.com"
               className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all text-gray-800"
             />
           </div>
