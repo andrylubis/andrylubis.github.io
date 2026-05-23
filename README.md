@@ -1,8 +1,5 @@
-# Andry Lubis - Personal Portfolio
+# Andry Lubis | Digital Transformation & System Solution
 
-Welcome to my personal portfolio repository! This repository hosts the source code for my professional portfolio website accessible at [andrylubis.github.io](https://andrylubis.github.io).
-
-## 🚀 About Me
 I am an IT leader with over **10 years of experience** in IT project management, digital transformation, and IT operations across FMCG and distribution industries. Currently focusing on **Digital Transformation & System Solution**, I specialize in driving technology strategy, system integration, CAPEX/OPEX management, and AI-driven initiatives to improve business efficiency and decision-making.
 
 ## 🛠️ Tech Stack & Features
