@@ -101,13 +101,13 @@ const Resume = () => {
           <div className="relative border-l border-gray-200 ml-3 space-y-6">
             <div className="relative pl-6">
               <span className="absolute -left-[5px] top-1 w-2.5 h-2.5 rounded-full bg-blue-500 ring-4 ring-white"></span>
-              <p className="text-sm font-bold text-gray-900">PMI Citizen Developer™ Business Architect</p>
-              <p className="text-xs text-gray-500">Project Management Institute | 2025</p>
+              <p className="text-sm font-bold text-gray-900">Product & Project Management</p>
+              <p className="text-xs text-gray-500">MySkill | 2026</p>
             </div>
             <div className="relative pl-6">
               <span className="absolute -left-[5px] top-1 w-2.5 h-2.5 rounded-full bg-blue-500 ring-4 ring-white"></span>
-              <p className="text-sm font-bold text-gray-900">Product & Project Management</p>
-              <p className="text-xs text-gray-500">MySkill | 2026</p>
+              <p className="text-sm font-bold text-gray-900">PMI Citizen Developer™ Business Architect</p>
+              <p className="text-xs text-gray-500">Project Management Institute | 2025</p>
             </div>
             <div className="relative pl-6">
               <span className="absolute -left-[5px] top-1 w-2.5 h-2.5 rounded-full bg-blue-500 ring-4 ring-white"></span>
