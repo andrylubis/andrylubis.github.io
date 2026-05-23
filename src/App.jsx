@@ -27,7 +27,7 @@ function App() {
           
           {/* Footer */}
           <footer className="bg-white rounded-3xl shadow-sm p-6 text-center text-gray-500 text-sm">
-            <p>&copy; {new Date().getFullYear()} Andry Lubis. All rights reserved.</p>
+            <p>&copy; Andry Lubis</p>
           </footer>
         </div>
 
