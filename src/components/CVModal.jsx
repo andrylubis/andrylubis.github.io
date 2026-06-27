@@ -20,9 +20,9 @@ const CVModal = ({ isOpen, onClose }) => {
     
     // Construct the email body
     const emailTo = 'andryldev@yahoo.com';
-    const subject = encodeURIComponent(`CV Request - ${formData.name} (${formData.company || 'Individual'})`);
+    const subject = encodeURIComponent(`Contact Inquiry - ${formData.name} (${formData.company || 'Individual'})`);
     const body = encodeURIComponent(
-      `Hello Andry,\n\nI would like to request your CV.\n\n` +
+      `Hello Andry,\n\nI would like to get in touch with you.\n\n` +
       `Here are my details:\n` +
       `- Name: ${formData.name}\n` +
       `- Company/Organization: ${formData.company || 'N/A'}\n` +
@@ -61,9 +61,9 @@ const CVModal = ({ isOpen, onClose }) => {
 
         {/* Modal Header */}
         <div className="p-8 pb-4 text-left">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Request Resume / CV</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-2">Get in Touch</h3>
           <p className="text-sm text-gray-500 leading-relaxed">
-            Interested in collaboration or hiring? Fill out your details below to request my complete CV.
+            Interested in collaboration, hiring, or have a question? Fill out your details below to send me a message or request my CV.
           </p>
         </div>
 

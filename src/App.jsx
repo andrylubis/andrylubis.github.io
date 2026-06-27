@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import CVModal from './components/CVModal';
 
@@ -24,10 +25,36 @@ function App() {
           <About />
           <Resume />
           <Skills />
+          <Projects />
           
           {/* Footer */}
-          <footer className="bg-white rounded-3xl shadow-sm p-6 text-center text-gray-500 text-sm">
-            <p>&copy; Andry Lubis</p>
+          <footer className="bg-white rounded-3xl shadow-sm p-6">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              
+              {/* Left: Copyright */}
+              <div className="text-gray-500 text-sm text-center sm:text-left">
+                <p className="font-medium text-gray-700">© {new Date().getFullYear()} Andry Lubis</p>
+              </div>
+
+              {/* Right: Visitor Badge */}
+              <div className="flex flex-col items-center gap-1.5">
+                <span className="text-xs text-gray-400 font-medium tracking-wide uppercase">Visitor Count</span>
+                <a 
+                  href="https://hits.seeyoufarm.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="opacity-90 hover:opacity-100 transition-opacity duration-200"
+                  title="Visitor Counter"
+                >
+                  <img 
+                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fandrylubis.github.io&count_bg=%233B82F6&title_bg=%231E3A5F&icon=github.svg&icon_color=%23FFFFFF&title=Visitors&edge_flat=false"
+                    alt="Visitor Count"
+                    className="h-6 rounded-md shadow-sm"
+                  />
+                </a>
+              </div>
+
+            </div>
           </footer>
         </div>
 
