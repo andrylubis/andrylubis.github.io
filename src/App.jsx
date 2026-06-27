@@ -47,9 +47,9 @@ function App() {
                   title="Visitor Counter"
                 >
                   <img 
-                    src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fandrylubis.github.io&count_bg=%233B82F6&title_bg=%231E3A5F&icon=github.svg&icon_color=%23FFFFFF&title=Visitors&edge_flat=false"
+                    src="https://visitor-badge.laobi.icu/badge?page_id=andrylubis.github.io&left_color=1E3A5F&right_color=3B82F6&left_text=Visitors"
                     alt="Visitor Count"
-                    className="h-6 rounded-md shadow-sm"
+                    className="h-6 shadow-sm"
                   />
                 </a>
               </div>
