@@ -38,7 +38,6 @@ function App() {
 
               {/* Right: Visitor Badge */}
               <div className="flex flex-col items-center gap-1.5">
-                <span className="text-xs text-gray-400 font-medium tracking-wide uppercase">Visitor Count</span>
                 <a 
                   href="https://hits.seeyoufarm.com" 
                   target="_blank" 
